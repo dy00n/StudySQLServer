@@ -29,6 +29,12 @@ ALTER TABLE userTBL
 	CHECK (birthYear >= 1900 AND birthYear <= YEAR(GETDATE()));
 --2021까지
 
+SELECT * FROM sampleDB.dbo.userTBL;
+SELECT * FROM sqlDB.dbo.buyTbl;
+SELECT * FROM AdventureWorksLT2019.SalesLT.Product;
+SELECT * FROM AdventureWorksLT2019.dbo.ErrorLog;
+
+
 --ddl 한개이상 컬럼 pk로 지정 테이블 생성
 CREATE TABLE prodTbl
 (
