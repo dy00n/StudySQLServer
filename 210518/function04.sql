@@ -7,6 +7,6 @@ AS
 	)
 GO
 
+ 
 SELECT * FROM dbo.ufn_getUsers(180);
 
-SELECT * FROM dbo.ufn_userGrade(1970);
